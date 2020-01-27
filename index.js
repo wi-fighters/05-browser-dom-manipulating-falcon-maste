@@ -69,7 +69,11 @@
     // create a dive with a span showing the status
     const div = document.createElement('div');
     const span = document.createElement('span');
-    span.textContent = book.alreadyRead;
+    span.textContent = book.alreadyRead ? 'read' : 'To read';
+    span.style.backgroundColor = 'green'
+    span.style.borderRadius = '10px'
+    span.style.color = 'white';
+    span.style.padding = '3px'
     div.appendChild(span)
     li.append(img, h3, h5, div);
     console.log(li);
