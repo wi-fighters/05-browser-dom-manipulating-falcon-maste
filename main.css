@@ -3,6 +3,16 @@
     flex-flow: row wrap;
     justify-content: space-around;
   }
+
+  li {
+    object-fit: cover;
+    border: 0.2rem solid black;
+  }
+
+  img {
+    max-height: 15rem;
+    
+  }
   
   .book {
     width: 12rem;
