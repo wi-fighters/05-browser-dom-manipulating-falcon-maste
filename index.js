@@ -70,12 +70,9 @@
     const span = document.createElement('span');
     span.classList.add('button');
 
-    span.textContent = book.alreadyRead ? 'read' : 'To read';
+    span.textContent = book.alreadyRead ? 'Read' : 'To read';
     book.alreadyRead ? span.style.backgroundColor = 'green' : span.style.backgroundColor = 'gray';
 
-    span.style.borderRadius = '10px'
-    span.style.color = 'white';
-    span.style.padding = '3px'
     div.appendChild(span)
     li.append(img, h2, h3, div);
     console.log(li);

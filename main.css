@@ -17,6 +17,7 @@
   }
 
   li {
+    position: relative;
     border: 1px solid rgb(211, 214, 218);
     height: 32rem;
     width: 16rem;
@@ -41,14 +42,19 @@
     border-top: 1px solid rgb(211, 214, 218);
     text-align: end;
     padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 
   .button {
-    text-align: right;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
   }
 
   img {
-    max-height: 20rem;
+    height: 20rem;
     width: 16rem;
     border: 0.2rem solid black;
     object-fit: cover;
