@@ -27,16 +27,8 @@
     padding: 0.3rem;
     border-radius: 0.3rem;
   }
-
-
   
   .status {
     font-style: italic;
-  }
-  
-  .book-cover {
-    max-height: 15rem;
-    object-fit: cover;
-    border: 0.2rem solid black;
   }
   

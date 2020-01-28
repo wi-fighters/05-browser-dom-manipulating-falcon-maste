@@ -50,7 +50,6 @@ if (module.hot) {
       return -1;
     }
 
-
   })
 
   const ul = document.querySelector('.book-list');
@@ -61,9 +60,12 @@ if (module.hot) {
     //creating li for each book
     const li = document.createElement('li');
 
-    //  creat a img tag and then add source attribute for image
+    //  creat a img and add a class tag and then add source attribute for image
     const img = document.createElement('img');
-    img.src = book.img
+    img.src = book.img;
+    img.classList.add('book-cover');
+
+
     // create a h3 for book title
     // TODO consistent heading hierarchy
     const h2 = document.createElement('h2');
@@ -82,7 +84,7 @@ if (module.hot) {
 
     div.appendChild(span)
     li.append(img, h2, h3, div);
-    console.log(li);
+
 
     ul.appendChild(li);
 

@@ -1,0 +1,5 @@
+.book-cover {
+    max-height: 15rem;
+    object-fit: cover;
+    border: 0.2rem solid black;
+  }
