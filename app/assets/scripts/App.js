@@ -1,3 +1,10 @@
+import '../styles/styles.css'
+
+if (module.hot) {
+  module.hot.accept()
+
+}
+
 // IIFE
 (() => {
   // creat an array
@@ -81,10 +88,7 @@
 
   })
 
-
-
   // store the li into an array
   // sort it according to the author last name and append it into the ul
-
 
 })()
